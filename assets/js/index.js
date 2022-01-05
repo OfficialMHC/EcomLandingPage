@@ -19,3 +19,14 @@ if (close) {
         cartMobile.classList.remove('none');
     });
 }
+
+
+// SHOW SUB CATEGORIES
+
+$(".category").focusin(function () {
+    $("#sub-menu").show();
+});
+  
+$(".category").focusout(function () {
+    $("#sub-menu").hide();
+});
